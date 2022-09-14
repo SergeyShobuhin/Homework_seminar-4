@@ -3,19 +3,20 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16 //// 2*2*2*2 = 16
 
-DSpjd 
+// вызов функции
 int GetDegree(int a, int b)
     {
         int degree = 1;
         for (int i = 1; i <= b; i++)
         {
-            degree = degree * a;
+            degree = degree * a; // умножаем цисло само на себя N раз
         }
 
         return degree;    
     }
 
 
+// Определяем числа для операций
 Console.WriteLine("Введите число которое необходимо возвести в степень: ");
 int numberA = int.Parse(Console.ReadLine());
 
