@@ -5,19 +5,17 @@
 
 // Вызов функции
 int GetSumNumbers(int num)
-{
-    int rezult = 0;
-    int remnant;
-    while (num > 0)
-        {
-            remnant = num % 10; // определяем последнее число
-            rezult = rezult + remnant; // складываем отделённые числа
-            num = num / 10; // отсекаем последнее число
-            
-        }
-
-    return rezult;    
-}
+    {
+        int rezult = 0;
+        int remnant;
+        while (num > 0)
+            {
+                remnant = num % 10; // определяем последнее число
+                rezult = rezult + remnant; // складываем отделённые числа
+                num = num / 10; // отсекаем последнее число            
+            }
+        return rezult;    
+    }
 
 // Определяем число для операции
 Console.Write("Введите число: ");
