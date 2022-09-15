@@ -1,5 +1,5 @@
 */bin
 */obj
 123.txt
-.gitignore
+*.gitignore
 
