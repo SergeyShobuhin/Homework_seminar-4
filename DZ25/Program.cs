@@ -11,10 +11,8 @@ int GetDegree(int a, int b)
         {
             degree = degree * a; // умножаем цисло само на себя N раз
         }
-
         return degree;    
     }
-
 
 // Определяем числа для операций
 Console.WriteLine("Введите число которое необходимо возвести в степень: ");
